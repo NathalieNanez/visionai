@@ -12,3 +12,7 @@ __pycache__
 images/*
 images_with_boxes/*
 models/yolov8n.pt
+# Archivos de configuración SSH
+*eval*
+*.pub
+
