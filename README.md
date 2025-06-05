@@ -24,3 +24,21 @@
 # Clone repository (optional)
 git clone https://github.com/yourusername/visionai.git
 cd visionai
+
+### Construir y ejecutar con Docker
+bash
+# Construir las imágenes
+docker compose build
+
+# Iniciar los contenedores
+docker compose up
+
+# Para ejecutar en segundo plano:
+docker compose up -d
+
+### Acceder a la aplicación
+Interfaz web: http://localhost:8000
+
+API Docs: http://localhost:8000/docs
+
+Galería de resultados: http://localhost:8000/images
