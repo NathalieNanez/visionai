@@ -1,25 +1,22 @@
-🚀 VisionAI - Sistema de Detección de Objetos con YOLOv8
+# 🚀 VisionAI - Sistema de Detección de Objetos con YOLOv8
 Python
 FastAPI
 Docker
 YOLOv8
 
-📌 Tabla de Contenidos
+### 📌 Tabla de Contenidos
 Características
 
 Instalación
 
 Uso
 
-Estructura del Proyecto
-
 Despliegue
-
-Contribución
 
 Licencia
 
-🌟 Características
+## 🌟 Características
+
 🖼️ Interfaz web moderna para carga de imágenes
 
 🔍 Detección de objetos en tiempo real con YOLOv8
@@ -39,18 +36,18 @@ Docker Desktop (Descargar)
 Git (opcional)
 
 bash
-# Clonar repositorio
+## Clonar repositorio
 git clone https://github.com/NathalieNanez/visionai.git
 cd visionai
 Con Docker (recomendado)
 bash
-# Construir imágenes
+## Construir imágenes
 docker compose build
 
-# Iniciar servicios
+## Iniciar servicios
 docker compose up -d
 
-# Ver logs
+## Ver logs
 docker compose logs -f
 Sin Docker (solo desarrollo)
 bash
@@ -59,12 +56,12 @@ source .venv/bin/activate  # Linux/Mac
 pip install -r requirements.txt
 uvicorn main:app --reload
 
-# 🌐 Uso
+## 🌐 Uso
 Accede a la interfaz web: http://localhost:8000
 
 Sube una imagen usando drag & drop o el botón de selección
 
-# Visualiza los resultados de la detección
+## Visualiza los resultados de la detección
 
 Explora el historial en: http://localhost:8000/images
 
@@ -75,7 +72,7 @@ POST /predict - Procesar imagen
 GET /images - Listar imágenes procesadas
 
 
-# 🚀 Despliegue
+## 🚀 Despliegue
 Producción con Docker
 
 bash
