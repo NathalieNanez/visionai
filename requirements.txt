@@ -1,0 +1,7 @@
+fastapi
+uvicorn[standard]
+ultralytics>=8.3.1  # Compatible con Python 3.12
+torch>=2.2.0        # Versión para Python 3.12
+opencv-python
+python-multipart
+jinja2
