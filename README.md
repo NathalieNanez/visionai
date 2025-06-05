@@ -18,7 +18,7 @@
 
 ### Prerequisites
 - Docker Desktop ([Download](https://www.docker.com/products/docker-desktop))
-- Git (optional)
+- Git 
 
 ```bash
 # Clone repository (optional)
