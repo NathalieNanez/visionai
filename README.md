@@ -86,8 +86,10 @@ visionai/
 ├── Dockerfile        # Configuración Docker
 ├── docker-compose.yml # Orquestación
 └── requirements.txt  # Dependencias
+
 🚀 Despliegue
 Producción con Docker
+
 bash
 docker compose -f docker-compose.prod.yml up --build -d
 Variables de entorno
